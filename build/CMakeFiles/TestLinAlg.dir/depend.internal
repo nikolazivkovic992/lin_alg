@@ -3,4 +3,6 @@
 
 CMakeFiles/TestLinAlg.dir/src/main.cpp.o
  ../lib/Array.h
+ ../lib/Vector.h
  /home/nikola/projects/lin_alg/src/main.cpp
+ TestLinAlgConfig.h

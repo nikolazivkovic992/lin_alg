@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/nikola/projects/lin_alg/lib/Array.cpp
-Array.h
 /home/nikola/projects/lin_alg/lib/Array.h
 
+/home/nikola/projects/lin_alg/lib/Vector.cpp
+Vector.h
+/home/nikola/projects/lin_alg/lib/Vector.h
+
+/home/nikola/projects/lin_alg/lib/Vector.h
+Array.h
 /home/nikola/projects/lin_alg/lib/Array.h
 

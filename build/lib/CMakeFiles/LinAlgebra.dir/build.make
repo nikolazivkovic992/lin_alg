@@ -70,17 +70,32 @@ lib/CMakeFiles/LinAlgebra.dir/Array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinAlgebra.dir/Array.cpp.s"
 	cd /home/nikola/projects/lin_alg/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikola/projects/lin_alg/lib/Array.cpp -o CMakeFiles/LinAlgebra.dir/Array.cpp.s
 
+lib/CMakeFiles/LinAlgebra.dir/Vector.cpp.o: lib/CMakeFiles/LinAlgebra.dir/flags.make
+lib/CMakeFiles/LinAlgebra.dir/Vector.cpp.o: ../lib/Vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikola/projects/lin_alg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/LinAlgebra.dir/Vector.cpp.o"
+	cd /home/nikola/projects/lin_alg/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinAlgebra.dir/Vector.cpp.o -c /home/nikola/projects/lin_alg/lib/Vector.cpp
+
+lib/CMakeFiles/LinAlgebra.dir/Vector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinAlgebra.dir/Vector.cpp.i"
+	cd /home/nikola/projects/lin_alg/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikola/projects/lin_alg/lib/Vector.cpp > CMakeFiles/LinAlgebra.dir/Vector.cpp.i
+
+lib/CMakeFiles/LinAlgebra.dir/Vector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinAlgebra.dir/Vector.cpp.s"
+	cd /home/nikola/projects/lin_alg/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikola/projects/lin_alg/lib/Vector.cpp -o CMakeFiles/LinAlgebra.dir/Vector.cpp.s
+
 # Object files for target LinAlgebra
 LinAlgebra_OBJECTS = \
-"CMakeFiles/LinAlgebra.dir/Array.cpp.o"
+"CMakeFiles/LinAlgebra.dir/Array.cpp.o" \
+"CMakeFiles/LinAlgebra.dir/Vector.cpp.o"
 
 # External object files for target LinAlgebra
 LinAlgebra_EXTERNAL_OBJECTS =
 
 lib/libLinAlgebra.a: lib/CMakeFiles/LinAlgebra.dir/Array.cpp.o
+lib/libLinAlgebra.a: lib/CMakeFiles/LinAlgebra.dir/Vector.cpp.o
 lib/libLinAlgebra.a: lib/CMakeFiles/LinAlgebra.dir/build.make
 lib/libLinAlgebra.a: lib/CMakeFiles/LinAlgebra.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nikola/projects/lin_alg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libLinAlgebra.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nikola/projects/lin_alg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libLinAlgebra.a"
 	cd /home/nikola/projects/lin_alg/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/LinAlgebra.dir/cmake_clean_target.cmake
 	cd /home/nikola/projects/lin_alg/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LinAlgebra.dir/link.txt --verbose=$(VERBOSE)
 

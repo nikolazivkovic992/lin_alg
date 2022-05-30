@@ -4,3 +4,7 @@
 lib/CMakeFiles/LinAlgebra.dir/Array.cpp.o
  /home/nikola/projects/lin_alg/lib/Array.cpp
  /home/nikola/projects/lin_alg/lib/Array.h
+lib/CMakeFiles/LinAlgebra.dir/Vector.cpp.o
+ /home/nikola/projects/lin_alg/lib/Array.h
+ /home/nikola/projects/lin_alg/lib/Vector.cpp
+ /home/nikola/projects/lin_alg/lib/Vector.h

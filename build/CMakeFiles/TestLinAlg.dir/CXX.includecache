@@ -8,9 +8,19 @@
 
 ../lib/Array.h
 
+../lib/Vector.h
+Array.h
+../lib/Array.h
+
 /home/nikola/projects/lin_alg/src/main.cpp
 iostream
 -
+TestLinAlgConfig.h
+-
 Array.h
 /home/nikola/projects/lin_alg/src/Array.h
+Vector.h
+/home/nikola/projects/lin_alg/src/Vector.h
+
+TestLinAlgConfig.h
 

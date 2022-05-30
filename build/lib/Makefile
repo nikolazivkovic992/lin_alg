@@ -152,6 +152,33 @@ Array.cpp.s:
 	cd /home/nikola/projects/lin_alg/build && $(MAKE) -f lib/CMakeFiles/LinAlgebra.dir/build.make lib/CMakeFiles/LinAlgebra.dir/Array.cpp.s
 .PHONY : Array.cpp.s
 
+Vector.o: Vector.cpp.o
+
+.PHONY : Vector.o
+
+# target to build an object file
+Vector.cpp.o:
+	cd /home/nikola/projects/lin_alg/build && $(MAKE) -f lib/CMakeFiles/LinAlgebra.dir/build.make lib/CMakeFiles/LinAlgebra.dir/Vector.cpp.o
+.PHONY : Vector.cpp.o
+
+Vector.i: Vector.cpp.i
+
+.PHONY : Vector.i
+
+# target to preprocess a source file
+Vector.cpp.i:
+	cd /home/nikola/projects/lin_alg/build && $(MAKE) -f lib/CMakeFiles/LinAlgebra.dir/build.make lib/CMakeFiles/LinAlgebra.dir/Vector.cpp.i
+.PHONY : Vector.cpp.i
+
+Vector.s: Vector.cpp.s
+
+.PHONY : Vector.s
+
+# target to generate assembly for a file
+Vector.cpp.s:
+	cd /home/nikola/projects/lin_alg/build && $(MAKE) -f lib/CMakeFiles/LinAlgebra.dir/build.make lib/CMakeFiles/LinAlgebra.dir/Vector.cpp.s
+.PHONY : Vector.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,6 +191,9 @@ help:
 	@echo "... Array.o"
 	@echo "... Array.i"
 	@echo "... Array.s"
+	@echo "... Vector.o"
+	@echo "... Vector.i"
+	@echo "... Vector.s"
 .PHONY : help
 
 

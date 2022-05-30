@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LinAlgebra.dir/Array.cpp.o"
+  "CMakeFiles/LinAlgebra.dir/Vector.cpp.o"
   "libLinAlgebra.a"
   "libLinAlgebra.pdb"
 )

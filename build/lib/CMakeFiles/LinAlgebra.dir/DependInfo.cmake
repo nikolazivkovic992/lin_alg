@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nikola/projects/lin_alg/lib/Array.cpp" "/home/nikola/projects/lin_alg/build/lib/CMakeFiles/LinAlgebra.dir/Array.cpp.o"
+  "/home/nikola/projects/lin_alg/lib/Vector.cpp" "/home/nikola/projects/lin_alg/build/lib/CMakeFiles/LinAlgebra.dir/Vector.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
