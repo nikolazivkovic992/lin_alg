@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nikola/projects/lin_alg/lib/Array.cpp
+Array.h
+/home/nikola/projects/lin_alg/lib/Array.h
+
+/home/nikola/projects/lin_alg/lib/Array.h
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/Array.h
+
+/home/nikola/projects/lin_alg/src/main.cpp
+iostream
+-
+Array.h
+/home/nikola/projects/lin_alg/src/Array.h
+

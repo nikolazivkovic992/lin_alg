@@ -1,0 +1,6 @@
+/home/nikola/projects/lin_alg/build/CMakeFiles/rebuild_cache.dir
+/home/nikola/projects/lin_alg/build/CMakeFiles/edit_cache.dir
+/home/nikola/projects/lin_alg/build/CMakeFiles/TestLinAlg.dir
+/home/nikola/projects/lin_alg/build/lib/CMakeFiles/rebuild_cache.dir
+/home/nikola/projects/lin_alg/build/lib/CMakeFiles/edit_cache.dir
+/home/nikola/projects/lin_alg/build/lib/CMakeFiles/LinAlgebra.dir

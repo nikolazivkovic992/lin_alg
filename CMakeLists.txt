@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # add the LinAlgebra library
-add_subdirectory(LinAlgebra)
+add_subdirectory(lib)
 
 # add the executable
 add_executable(${PROJECT_NAME} src/main.cpp)
@@ -19,5 +19,5 @@ target_link_libraries(${PROJECT_NAME} PUBLIC LinAlgebra)
 
 target_include_directories(${PROJECT_NAME} PUBLIC
                           "${PROJECT_BINARY_DIR}"
-                          "${PROJECT_SOURCE_DIR}/LinAlgebra"
+                          "${PROJECT_SOURCE_DIR}/lib"
                           )
