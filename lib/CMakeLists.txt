@@ -1,1 +1,0 @@
-add_library(LinAlgebra Array.cpp Vector.cpp)

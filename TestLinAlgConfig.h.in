@@ -1,3 +1,0 @@
-// the configured options and settings for TestLinAlg
-#define TestLinAlg_VERSION_MAJOR @TestLinAlg_VERSION_MAJOR@
-#define TestLinAlg_VERSION_MINOR @TestLinAlg_VERSION_MINOR@

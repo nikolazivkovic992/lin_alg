@@ -1,2 +1,0 @@
-/usr/bin/ar qc libLinAlgebra.a  CMakeFiles/LinAlgebra.dir/Array.cpp.o CMakeFiles/LinAlgebra.dir/Vector.cpp.o
-/usr/bin/ranlib libLinAlgebra.a

@@ -1,16 +1,23 @@
 #ifndef ARRAY_H
 #define ARRAY_H
 
+template <typename T>
 class Array
 {
 public:
 
-    double      data[4];
+    T           data[4];
     unsigned    length;
 
-    Array(double x, double y, double z, double w);
-    
-    ~Array();
+    Array(T x, T y, T z, T w)
+        : data{x, y, z, w}
+    {
+        length = 4;
+    }
+
+    ~Array()
+    {
+    }
 
     Array &operator=(Array &rhs)
     {
@@ -24,5 +31,6 @@ public:
         return *this;
     }
 };
+
 
 #endif
